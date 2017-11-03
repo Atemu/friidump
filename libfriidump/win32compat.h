@@ -47,7 +47,7 @@
 typedef long suseconds_t;
 
 /* Some functions have different names */
-#define snprintf _snprintf
+/* #define snprintf _snprintf */
 #define strdup _strdup
 #define strcasecmp lstrcmpi
 #define va_copy(ap1, ap2) ((ap1) = (ap2))		// MSVC doesn't have va_copy, how crap...
