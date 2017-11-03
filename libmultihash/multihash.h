@@ -30,7 +30,7 @@
 #define u_int32_t DWORD
 
 /* Some functions have different names */
-#define snprintf			_snprintf
+/* #define snprintf			_snprintf */
 
 /* Stuff to export library symbols */
 #ifdef MULTIHASH_BUILD_DLL
